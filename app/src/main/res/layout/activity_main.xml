@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dear"
+            android:textSize="24sp"
+            android:paddingRight="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/receiver_name_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="eg. Mom"
+            android:inputType="textPersonName"
+            android:textSize="24sp"
+            android:paddingRight="20dp"
+            />
+
+        <Button
+            android:id="@+id/receiver_name_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/receiver_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="27dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/message_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="eg. it is your day."
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/message_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:visibility="gone"
+        android:textSize="24sp"
+        />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="29dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="114dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:text="Happy birthday,"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/signature_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="eg. Alex"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/signature_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Done"
+                android:textSize="24sp"
+                />
+
+            <TextView
+                android:id="@+id/signature_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:visibility="gone"
+                android:textSize="24sp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
